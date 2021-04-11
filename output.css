@@ -1,0 +1,474 @@
+html {
+  width: 100%;
+  font-family: "poppins", "sans-serif";
+}
+html a:active {
+  text-decoration: none;
+}
+html a:checked {
+  text-decoration: none;
+}
+html a:link {
+  text-decoration: none;
+}
+html a:visited {
+  color: none;
+  text-decoration: none;
+}
+html a:focus {
+  color: none;
+  text-decoration: none;
+}
+
+.logodiv {
+  width: 100%;
+}
+.logodiv .logoimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  object-fit: cover;
+}
+
+.nav {
+  padding-right: 6rem;
+  flex: 2 1 auto;
+  text-align: right;
+}
+.nav__link {
+  display: inline;
+  font-size: 3rem;
+  padding-left: 1.5rem;
+}
+.nav__link a {
+  text-decoration: none;
+  color: #D6FFF5;
+}
+.nav__link--active {
+  color: #001534;
+}
+.nav__link--active:hover {
+  cursor: default;
+  color: #001534;
+}
+.nav__link a:hover {
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+.footdiv {
+  height: 250px;
+  width: 100%;
+  background-color: #353535;
+}
+.footdiv a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.footdiv li {
+  padding-top: 4px;
+}
+.footdiv ul {
+  list-style-type: none;
+  margin-top: 0px;
+}
+.footdiv img {
+  max-width: 200px;
+  height: auto;
+  margin-top: 30px;
+  filter: invert(1);
+}
+
+.explorer {
+  display: flex;
+  flex-flow: wrap;
+  height: 500px;
+  width: 100%;
+  background-color: #f6f6f6;
+  margin-top: 50px;
+}
+.explorer__title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.explorer__subtitle {
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100px;
+}
+.explorer__localisation {
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  background-color: #eaeaea;
+  vertical-align: middle;
+}
+.explorer__localisation p {
+  font-weight: bold;
+  font-size: 2em;
+  width: 100%;
+}
+.explorer__btn {
+  align-items: center;
+  justify-content: center;
+  border-radius: 31px;
+  border: 0px;
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  width: 250px;
+  height: 55px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.fa-map-marker-alt {
+  font-size: 1em;
+  margin-right: 20px;
+}
+
+.fonctionnement {
+  width: 100%;
+  height: 500px;
+}
+.fonctionnement__title {
+  display: flex;
+  font-weight: 600;
+  font-size: 2em;
+  margin-left: 10%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: 15px;
+}
+.fonctionnement__divf {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 93%;
+  border-radius: 25px;
+  -webkit-box-shadow: 1px 1px 2px 0px #E6E6E6;
+  -moz-box-shadow: 1px 1px 2px 0px #E6E6E6;
+  box-shadow: 1px 1px 2px 0px #E6E6E6;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+.fonctionnement__divf:hover {
+  background-color: #F5EDFF;
+}
+.fonctionnement__divf:hover i {
+  color: #9356DC;
+}
+.fonctionnement__divf p {
+  font-weight: bold;
+  font-size: 1.6em;
+  width: 100%;
+  margin-bottom: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.fonctionnement__divf__circlep {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #9356DC;
+  display: flex;
+  margin-left: -20px;
+  opacity: 1;
+  margin-top: 30px;
+}
+.fonctionnement__divf__circlep p {
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-left: 0px;
+  width: 100%;
+  margin-bottom: auto;
+  margin-top: 0px;
+  color: white;
+}
+
+.fa-mobile-alt {
+  margin-right: 30px;
+  color: #7e7e7e;
+}
+
+.fa-bars {
+  margin-right: 30px;
+  color: #7e7e7e;
+}
+
+.fa-ellipsis-v {
+  font-size: 1em;
+  color: #7e7e7e;
+  padding-bottom: 5px;
+  margin-right: 2px;
+}
+
+.fa-store {
+  margin-right: 30px;
+  color: #7e7e7e;
+}
+
+.resto {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 100%;
+  border-radius: 0%;
+  height: 100%;
+  background-color: #F6F6F6;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.resto h2 {
+  display: flex;
+  font-weight: 600;
+  font-size: 2em;
+  margin-left: 10%;
+  width: 90%;
+  margin-right: auto;
+  margin-left: 15px;
+}
+.resto__card {
+  background-color: white;
+  border-radius: 31px;
+  -webkit-box-shadow: 1px 1px 2px 0px #E7E7E7k;
+  -moz-box-shadow: 1px 1px 2px 0px #E7E7E7k;
+  box-shadow: 1px 1px 2px 0px #E7E7E7;
+}
+.resto__aresto {
+  max-width: 750x;
+  height: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.resto__card__restaurant {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-left: auto;
+  margin-left: auto;
+  flex-flow: wrap;
+  position: relative;
+}
+.resto__card__restaurant__new {
+  display: flex;
+  position: absolute;
+  height: 70px;
+  width: 180px;
+  color: #99E2D0;
+  background-color: #99E2D0;
+  border-radius: 5px;
+  right: 15px;
+  top: 15px;
+}
+.resto__card__restaurant__new h3 {
+  color: #0F9070;
+  font-weight: bold;
+  margin: auto;
+  font-size: 1.8em;
+}
+.resto__card__restaurant h2 {
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 350px;
+  margin: 0px;
+  margin-left: 15px;
+}
+.resto__card__restaurant p {
+  font-size: 1.4em;
+  max-width: 150px;
+  margin: 0px;
+  max-width: 80%;
+  margin-left: 15px;
+}
+.resto__card__restaurant img {
+  object-fit: cover;
+  max-height: 70%;
+  max-width: 100%;
+  min-width: 100%;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+}
+.resto__card__restaurant i {
+  padding-right: 15px;
+  font-size: 3em;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  transition: all 0.3s;
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
+}
+.resto__card__restaurant i:hover {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff79da;
+  -webkit-text-stroke: initial;
+}
+
+.clr:hover {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff79da;
+  -webkit-text-stroke: initial;
+}
+
+.head {
+  display: flex;
+  height: 450px;
+  max-height: 450px;
+  width: 100%;
+  flex-flow: column;
+}
+.head img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+  z-index: 1;
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.pagediv {
+  margin-top: -60px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #050505;
+  height: auto;
+  background-color: #F3F3F3;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
+  align-items: flex-end;
+  flex-flow: column;
+}
+
+.toptitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.toptitle h2 {
+  font-weight: bold;
+  font-size: 2em;
+}
+.toptitle i {
+  padding-right: 15px;
+  font-size: 2.5em;
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+  transition: all 0.3s;
+}
+.toptitle i:hover {
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff79da;
+  -webkit-text-stroke: initial;
+}
+
+.ENTREE {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+}
+
+.PLATS {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-flow: column;
+}
+
+.DESSERTS {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-flow: column;
+}
+
+.divplat {
+  display: flex;
+  height: 100px;
+  width: 95%;
+  margin: 15px;
+  border-radius: 31px;
+  -webkit-box-shadow: 1px 1px 5px 0px black;
+  -moz-box-shadow: 1px 1px 5px 0px black;
+  box-shadow: 1px 1px 5px 0px black;
+  flex-flow: column;
+  justify-content: space-around;
+}
+.divplat h2 {
+  margin: 0px;
+  margin-left: 20px;
+}
+.divplat h3 {
+  margin: 0px;
+  margin-bottom: -40px;
+  margin-left: 20px;
+}
+.divplat h4 {
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-left: 85%;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  border-radius: 31px;
+  border: 0px;
+  background: -webkit-linear-gradient(#9356dc, #ff79da);
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  margin-right: auto;
+  margin-left: 275px;
+  margin-top: 40px;
+  width: 250px;
+  height: 55px;
+}
+
+/*# sourceMappingURL=output.css.map */
